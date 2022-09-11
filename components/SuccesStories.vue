@@ -22,7 +22,7 @@
                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
                         </h2>
                         <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
-                        <Form />
+                        <ContactForm />
                     </div>
                     </div>
                     <!--footer-->
@@ -59,7 +59,7 @@
                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
                         </h2>
                         <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
-                        <Form />
+                        <ContactForm/>
                     </div>
                     </div>
                     <!--footer-->
@@ -94,7 +94,7 @@
                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
                         </h2>
                         <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
-                        <Form />
+                        <ContactForm />
                     </div>
                     </div>
                     <!--footer-->
@@ -113,9 +113,9 @@
 </template>
 
 <script>
-import Form from './form.vue';
+import ContactForm from './ContactForm.vue';
     export default {
-    name: "large-modal",
+    name: "SuccessStories",
     data() {
         return {
             showModal: false
@@ -126,7 +126,7 @@ import Form from './form.vue';
             this.showModal = !this.showModal;
         }
     },
-    components: { Form }
+    components: { ContactForm }
 }
     </script>
 
