@@ -3,11 +3,11 @@
         <h2 class="text-4xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-6xl">Success Stories</h2>
         
         <VueSlickCarousel v-bind="settings">
-                        <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-                            <img src="../assets/image/1.jpg"
+                        <div class="flex justify-center px-1 pb-5 py-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+                            <img src="../assets/image/emirates.png"
                             alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
-                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
+                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 "/>
+                            <h2 class="text-2xl font-bold text-left pt-10" >EMIRATES</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
                             
@@ -15,11 +15,11 @@
 
                         </div>
 
-                        <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-                            <img src="../assets/image/2.jpg"
+                        <div class="flex justify-center px-1 py-10 pb-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+                            <img src="../assets/image/museum.png"
                             alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
-                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
+                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 "/>
+                            <h2 class="text-2xl font-bold text-left pt-10" >MUSEUM OF THE FUTURE</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
                             
@@ -28,8 +28,8 @@
                         <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
                             <img src="../assets/image/3.jpg"
                             alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
-                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
+                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90"/>
+                            <h2 class="text-2xl pt-5 font-bold text-left" >Metro</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
                             
