@@ -11,7 +11,7 @@
     </div>
       <div>
         <a href="#" class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white">
-            Schedule Meet Scent Expert</a>
+          Schedule Information Session</a>
       </div>
     
   </nav>
