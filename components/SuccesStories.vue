@@ -6,7 +6,7 @@
                         <div class="flex justify-center px-1 pb-5 py-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
                             <img src="../assets/image/emirates.png"
                             alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 "/>
+                            class="flex justify-center rounded-md w-full h-50 cursor-pointer opacity-1 transition-opacity hover:opacity-90 "/>
                             <h2 class="text-2xl font-bold text-left pt-10" >EMIRATES</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
@@ -18,8 +18,8 @@
                         <div class="flex justify-center px-1 py-10 pb-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
                             <img src="../assets/image/museum.png"
                             alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 "/>
-                            <h2 class="text-2xl font-bold text-left pt-10" >MUSEUM OF THE FUTURE</h2>
+                            class="flex justify-center rounded-md w-full h-50 cursor-pointer opacity-1 transition-opacity hover:opacity-90 "/>
+                            <h2 class="text-2xl font-bold text-left pt-10" >MOTF</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
                             
@@ -28,7 +28,7 @@
                         <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
                             <img src="../assets/image/metro-logo.jpeg"
                             alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90"/>
+                            class="flex justify-center rounded-md w-full h-50 cursor-pointer opacity-1 transition-opacity hover:opacity-90"/>
                             <h2 class="text-2xl pt-5 font-bold text-left" >Metro</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
