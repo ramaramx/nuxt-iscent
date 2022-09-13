@@ -10,13 +10,39 @@
                             <h2 class="text-6xl font-bold text-left" >Metro</h2>
                             <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
                             Read More</button>
-                            <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
-                                <div class="relative w-auto my-6 mx-auto max-w-6xl">
+                            
+
+
+                        </div>
+
+                        <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+                            <img src="../assets/image/2.jpg"
+                            alt="delivery"
+                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
+                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
+                            <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
+                            Read More</button>
+                            
+                        </div>
+
+                        <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+                            <img src="../assets/image/3.jpg"
+                            alt="delivery"
+                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
+                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
+                            <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
+                            Read More</button>
+                            
+                        </div>                       
+                </VueSlickCarousel>
+                <!-- pop up 1 -->
+                <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+                                <div class="relative w-auto my-6 mx-auto max-w-lg lg:max-w-6xl">
                                     <!--content-->
                                 <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                     <!--body-->
-                                    <div class="relative p-6 flex flex-row">
-                                    <iframe class="w-full aspect-video pr-5" src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
+                                    <div class="relative lg:p-6 flex flex-col lg:flex-row">
+                                    <iframe class="w-full aspect-video " src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
                                     <div class="flex flex-col">
                                         <h1 class="text-4xl font-bold">METRO</h1>
                                         <h2 class="text-md font-regular text-gray-500">Description : <br/>
@@ -38,23 +64,14 @@
                             </div>
                             <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
 
-
-                        </div>
-
-                        <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-                            <img src="../assets/image/2.jpg"
-                            alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
-                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
-                            <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
-                            Read More</button>
-                            <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-1 z-50 outline-none focus:outline-none justify-center items-center flex">
-                                <div class="relative w-auto my-6 mx-auto max-w-4xl">
+                            <!-- pop up 2 -->
+                            <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+                                <div class="relative w-auto my-6 mx-auto max-w-lg lg:max-w-6xl">
                                     <!--content-->
                                 <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                     <!--body-->
-                                    <div class="relative p-6 flex flex-row">
-                                    <iframe class="w-full aspect-video pr-5" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></iframe>
+                                    <div class="relative lg:p-6 flex flex-col lg:flex-row">
+                                        <iframe class="w-full aspect-video " src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="flex flex-col">
                                         <h1 class="text-4xl font-bold">METRO</h1>
                                         <h2 class="text-md font-regular text-gray-500">Description : <br/>
@@ -72,28 +89,21 @@
                                         </button>
                                     </div>
                                 </div>
-                            </div>
+                             </div>
                             </div>
                             <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
-                        </div>
 
-                        <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-                            <img src="../assets/image/3.jpg"
-                            alt="delivery"
-                            class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
-                            <h2 class="text-6xl font-bold text-left" >Metro</h2>
-                            <button type="button" class="text-black  hover:text-gray-600 focus:ring-4 focus:ring-blue-300 font-medium text-lg"  v-on:click="toggleModal()">
-                            Read More</button>
+                            <!-- pop up 2 -->
                             <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
-                                <div class="relative w-auto my-6 mx-auto max-w-6xl">
+                                <div class="relative w-auto my-6 mx-auto max-w-lg lg:max-w-6xl">
                                     <!--content-->
                                 <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                     <!--body-->
-                                    <div class="relative p-6 flex flex-row">
-                                    <iframe class="w-full aspect-video pr-5" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></iframe>
+                                    <div class="relative lg:p-6 flex flex-col lg:flex-row">
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="flex flex-col">
                                         <h1 class="text-4xl font-bold">METRO</h1>
-                                        <h2 class="text-md font-regular text-gray-500">Description : <br/>
+                                        <h2 class="text-sm lg:text-md font-regular text-gray-500">Description : <br/>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
                                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
                                         </h2>
@@ -111,9 +121,7 @@
                             </div>
                             </div>
                             <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
-                        </div>                       
-                </VueSlickCarousel>
-                
+
       </div>
 </template>
 
