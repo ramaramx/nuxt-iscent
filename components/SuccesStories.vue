@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="flex justify-center px-1 pb-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-                            <img src="../assets/image/3.jpg"
+                            <img src="../assets/image/metro-logo.jpeg"
                             alt="delivery"
                             class="flex justify-center rounded-md w-full h-full cursor-pointer opacity-1 transition-opacity hover:opacity-90"/>
                             <h2 class="text-2xl pt-5 font-bold text-left" >Metro</h2>

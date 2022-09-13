@@ -1,6 +1,6 @@
 <template>
   <div>
-     <div class="px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 bg-hero" >
+     <div class="px-4 py-22 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-16 bg-hero" >
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl ">Bring the power of <b>aroma</b>
               to your retail experiences.</h1>
@@ -13,8 +13,8 @@ memorable experience for all who interact with your brand</p>
         </div>
       </div>
         <div class="container">
-          <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-6xl">The iScent Difference</h2>
-          <p class="text-sm text-center lg:text-md">Custom-tailored auromas built from <b>ground-up.</b>
+          <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-4xl">The iScent Difference</h2>
+          <p class="text-lg text-center lg:text-md">Custom-tailored auromas built from <b>ground-up.</b>
             <br/>No white labeling. Our <b>customer experience</b> is unparalleled. 
             <br/>Only supreme <b>quality ingredients.</b> Sourced by us. </p>
         </div>          
