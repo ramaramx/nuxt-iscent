@@ -1,22 +1,38 @@
 <template> 
 
-<footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://iscent.ae/" class="hover:underline">Iscent.ae</a>. All Rights Reserved.
-    </span>
-    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-        <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
-        </li>
-        <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
-        </li>
-        <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
-        </li>
-        <li>
-            <a href="#" class="hover:underline">Contact</a>
-        </li>
-    </ul>
+<footer class="bg-black text-center lg:text-left">
+  <div class="container mx-auto p-6 text-gray-800">
+    <div class="grid lg:grid-cols-3 gap-5">
+      <div class="mb-6 md:mb-0">
+        <h5 class="font-medium mb-2 uppercase text-white">About Us</h5>
+
+        <p class="mb-4 text-white">
+            Whether you want to create a haven in the home or discover the power of scent marketing for your business, 
+            at iScent we use cutting-edge technology to bring the very best scent-diffusion capabilities to your office, 
+            hotel, property or business.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-0">
+        <h5 class="font-medium mb-2 uppercase text-white">Address</h5>
+
+        <p class="mb-4 text-white">
+            Address: Middle East Head Office NO. 1611 Churchill Tower, Burj Khalifa District, Dubai, UAE.
+        </p>
+      </div>
+      <div class="mb-6 md:mb-0 text-white">
+        <h5 class="font-medium mb-2 uppercase text-white">Connect With Us</h5>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">twitter</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center text-gray-700 p-4 bg-white">
+    © 2021 Copyright:
+    <a class="text-gray-800" href="https://tailwind-elements.com/">Tailwind Elements</a>
+  </div>
 </footer>
 
 </template>

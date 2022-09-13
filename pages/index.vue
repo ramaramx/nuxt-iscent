@@ -2,7 +2,7 @@
   <div>
      <div class="px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 bg-hero" >
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Bring the power of <strong>aroma</strong>
+            <h1 class="max-w-2xl mb-4 text-4xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Bring the power of <b>aroma</b>
               to your retail experiences.</h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 text-sm lg:mb-8  lg:text-xl dark:text-gray-400">iScent helps brands design one-of-one olfactory experiences
 That positively impact customer dwell time, foot traffic, return visits, and helps you craft a
@@ -14,9 +14,9 @@ memorable experience for all who interact with your brand</p>
       </div>
         <div class="container">
           <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-6xl">The iScent Difference</h2>
-          <p class="text-sm text-center lg:text-md">Custom-tailored auromas built from <strong>ground-up.</strong>
-            <br/>No white labeling. Our <strong>customer experience</strong> is unparalleled. 
-            <br/>Only supreme <strrong>quality ingredients.</strrong> Sourced by us. </p>
+          <p class="text-sm text-center lg:text-md">Custom-tailored auromas built from <b>ground-up.</b>
+            <br/>No white labeling. Our <b>customer experience</b> is unparalleled. 
+            <br/>Only supreme <b>quality ingredients.</b> Sourced by us. </p>
         </div>                
         <div class="flex flex-row justify-center gap-2 mt-5 mb-10  snap-x">
           <div class="flex flex-col justify-center justify-self-center mx-auto lg:mx-10 ">
