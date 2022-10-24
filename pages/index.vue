@@ -7,12 +7,13 @@
             <p class="max-w-2xl mb-6 font-light text-gray-500 text-sm lg:mb-8  lg:text-xl ">iScent helps brands design one-of-one olfactory experiences
 That positively impact customer dwell time, foot traffic, return visits, and helps you craft a
 memorable experience for all who interact with your brand</p>
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
+            
+          <span  @click="scrollToAnchorPoint('contact')" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
               SCHEDULE CONSULTATION
-            </a> 
+          </span> 
         </div>
       </div>
-        <div class="container">
+        <div class="container" >
           <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-4xl">The iScent Difference</h2>
           <p class="text-lg text-center lg:text-md">Custom-tailored auromas built from <b>ground-up.</b>
             <br/>No white labeling. Our <b>customer experience</b> is unparalleled. 
@@ -77,7 +78,9 @@ memorable experience for all who interact with your brand</p>
 
       <OurAroma/>
       <SuccesStories />
-      <ContactUs />
+      <div ref="contact">
+        <ContactUs />
+        </div>
     </div>
 </template>
 
@@ -91,6 +94,7 @@ export default {
     name: "IndexPage",
     layouts: "default",
     components: { OurAroma, SuccesStories, ContactUs, VueSlickCaraousel },
+
     data() {
         return {
             showModal: false,
@@ -133,7 +137,14 @@ export default {
         ]
         }
                 };
-            }
+            },
+      methods: {
+            scrollToAnchorPoint(refName) {
+            const el = this.$refs[refName]
+            el.scrollIntoView({ behavior: 'smooth'})
+        }
+    }
+  
 }
 </script>
 

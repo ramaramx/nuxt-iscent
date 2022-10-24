@@ -10,7 +10,7 @@
       />
     </div>
       <div>
-        <a href="#" class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white">
+        <a href="mailto:info@iscent.ae" class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white">
           Schedule Information Session</a>
       </div>
     
