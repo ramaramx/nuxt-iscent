@@ -1,6 +1,6 @@
 <template>
   <div>
-     <div class="px-4 py-22 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-16 bg-hero" >
+     <div class="px-4 py-20 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-20 bg-hero" >
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl ">Bring the power of <b>aroma</b>
               to your retail experiences.</h1>
@@ -13,7 +13,7 @@ memorable experience for all who interact with your brand</p>
           </span> 
         </div>
       </div>
-        <div class="container" >
+        <div class="container mx-auto py-20" >
           <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-4xl">The iScent Difference</h2>
           <p class="text-lg text-center lg:text-md">Custom-tailored auromas built from <b>ground-up.</b>
             <br/>No white labeling. Our <b>customer experience</b> is unparalleled. 
@@ -22,55 +22,55 @@ memorable experience for all who interact with your brand</p>
 
         <VueSlickCaraousel v-bind="settings">
           <div class="flex flex-row">
-          <div class="flex flex-col justify-center items-center justify-self-center mx-auto lg:mx-10 ">
-            <img src="../assets/image/delivery-w.png"
-            alt="delivery"
-            class="rounded-full w-20 h-20 z-50 opacity-1 transition-opacity invert hover:invert-0 hover:bg-black"/>
-              <h2 class="text-md font-bold text-center">RETAIL</h2>
-          </div>
+            <div class="flex flex-col justify-center items-center  mx-auto lg:mx-10 transform transition duration-500 hover:scale-110">
+              <img src="../assets/image/supermarket.png"
+              alt="delivery"
+              class=" w-20 h-20 z-50  "/>
+                <h2 class="text-md font-bold text-center">RETAIL</h2>
+            </div>
          </div>
 
          <div class="flex flex-row">
-         <div class="flex flex-col items-center justify-self-center mx-auto lg:mx-10">
-            <img src="../assets/image/fragrence-w.png"
+          <div class="flex flex-col justify-center items-center  mx-auto lg:mx-10 transform transition duration-500 hover:scale-110">
+            <img src="../assets/image/building.png"
             alt="delivery"
-            class="rounded-full w-20 h-20 z-50 opacity-1 transition-opacity invert hover:invert-0 hover:bg-black"/>
+            class=" w-20 h-20 z-50  "/>
               <h2 class="text-md font-bold text-center">OFFICES</h2>
           </div>
         </div>
          
           <div class="flex flex-row">
-          <div class="flex flex-col items-center justify-self-center mx-auto lg:mx-10">
-            <img src="../assets/image/schedule-w.png"
+            <div class="flex flex-col justify-center items-center  mx-auto lg:mx-10 transform transition duration-500 hover:scale-110">
+            <img src="../assets/image/resort.png"
             alt="delivery"
-            class="rounded-full w-20 h-20 z-50 opacity-1 transition-opacity invert hover:invert-0 hover:bg-black"/>
+            class=" w-20 h-20 z-50  "/>
               <h2 class="text-md font-bold text-center">HOTELS</h2>
           </div>
         </div>
          
           <div class="flex flex-row">
-          <div class="flex flex-col items-center justify-self-center mx-auto lg:mx-10">
-            <img src="../assets/image/schedule-w.png"
+            <div class="flex flex-col justify-center items-center  mx-auto lg:mx-10 transform transition duration-500 hover:scale-110">
+            <img src="../assets/image/healthcare.png"
             alt="delivery"
-            class="rounded-full w-20 h-20 z-50 opacity-1 transition-opacity invert hover:invert-0 hover:bg-black"/>
+            class=" w-20 h-20 z-50  "/>
               <h2 class="text-md font-bold text-center">HEALTHCARE AND SPAS</h2>
           </div>
         </div>
          
           <div class="flex flex-row">
-          <div class="flex flex-col items-center justify-self-center mx-auto lg:mx-10">
-            <img src="../assets/image/schedule-w.png"
+            <div class="flex flex-col justify-center items-center  mx-auto lg:mx-10 transform transition duration-500 hover:scale-110">
+            <img src="../assets/image/property.png"
             alt="delivery"
-            class="rounded-full w-20 h-20 z-50 opacity-1 transition-opacity invert hover:invert-0 hover:bg-black"/>
+            class=" w-20 h-20 z-50  "/>
               <h2 class="text-md font-bold text-center">PROPERTY MANAGEMENT</h2>
           </div>
         </div>
          
           <div class="flex flex-row">
-          <div class="flex flex-col items-center mx-auto lg:mx-10">
-            <img src="../assets/image/schedule-w.png"
+            <div class="flex flex-col justify-center items-center  mx-auto lg:mx-10 transform transition duration-500 hover:scale-110">
+            <img src="../assets/image/showroom.png"
             alt="delivery"
-            class="rounded-full w-20 h-20 z-50 opacity-1 transition-opacity invert hover:invert-0 hover:bg-black"/>
+            class=" w-20 h-20 z-50  "/>
               <h2 class="text-md font-bold text-center">CAR SHOWROOMS</h2>
           </div>
         </div>

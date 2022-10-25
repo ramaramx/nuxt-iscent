@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="text-4xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-6xl">Success Stories</h2>
+        <h2 class="text-2xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-4xl">Success Stories</h2>
         
         <VueSlickCarousel v-bind="settings">
                         <div class="flex justify-center px-1 pb-5 py-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
