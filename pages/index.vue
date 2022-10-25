@@ -8,7 +8,7 @@
 That positively impact customer dwell time, foot traffic, return visits, and helps you craft a
 memorable experience for all who interact with your brand</p>
             
-          <span  @click="scrollToAnchorPoint('contact')" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
+          <span class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
               SCHEDULE CONSULTATION
           </span> 
         </div>
@@ -143,12 +143,7 @@ export default {
         }
                 };
             },
-      methods: {
-            scrollToAnchorPoint(refName) {
-            const el = this.$refs[refName]
-            el.scrollIntoView({ behavior: 'smooth'})
-        }
-    }
+      
   
 }
 </script>
