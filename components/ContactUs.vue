@@ -10,12 +10,12 @@
           </div>  
         <div>
               <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Email</label>
-              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="example@gmail.com" required>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="example@email.com" required>
           </div>
 
           <div>
               <label for="telephone" class="block mb-2 text-sm font-medium text-gray-900 ">Phone Number</label>
-              <input type="tel" id="telephone" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="+" required>
+              <input type="tel" id="telephone" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="+971" required>
           </div>
           
           

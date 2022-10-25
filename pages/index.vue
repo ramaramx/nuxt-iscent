@@ -19,6 +19,11 @@ memorable experience for all who interact with your brand</p>
             <br/>No white labeling. Our <b>customer experience</b> is unparalleled. 
             <br/>Only supreme <b>quality ingredients.</b> Sourced by us. </p>
         </div>          
+        
+        <!-- <div>
+          <h1 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-4xl lg:mx-[500px]">Creating Signature Scents For Business</h1>
+          <p class="text-base text-center lg:text-lg">Give your business its own scent identity with captivating and unique fragrance compositions. With a wide range of customizable fragrances, we develop industry-centric scent marketing solutions for businesses of all types.</p>
+        </div> -->
 
         <VueSlickCaraousel v-bind="settings">
           <div class="flex flex-row">
