@@ -8,7 +8,7 @@
 That positively impact customer dwell time, foot traffic, return visits, and helps you craft a
 memorable experience for all who interact with your brand</p>
             
-          <span class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
+          <span  @click="scrollToAnchorPoint('contact')" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
               SCHEDULE CONSULTATION
           </span> 
         </div>
@@ -96,7 +96,7 @@ import ContactUs from '../components/ContactUs.vue';
 import VueSlickCaraousel from 'vue-slick-carousel'
 
 export default {
-    name: "IndexPage",
+    name: "index",
     layouts: "default",
     components: { OurAroma, SuccesStories, ContactUs, VueSlickCaraousel },
 
@@ -108,7 +108,7 @@ export default {
             infinite: true,
             rows: 1,
             initialSlide: 2,
-            speed: 500,
+            speed: 800,
             slidesToShow: 6,
             slidesToScroll: 2,
             swipeToSlide: true,
@@ -143,7 +143,12 @@ export default {
         }
                 };
             },
-      
+      methods: {
+            scrollToAnchorPoint(refName) {
+            const el = this.$refs[refName]
+            el.scrollIntoView({ behavior: 'smooth'})
+        }
+    }
   
 }
 </script>
