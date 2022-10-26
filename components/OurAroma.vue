@@ -8,21 +8,23 @@
             alt="delivery"
             class="rounded-md w-full h-full z-50 opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
               <h2 class="text-md font-bold text-center">Brand intake & ideation</h2>
-              <p class="text-sm font-regular text-center text-gray">we learn about your brand, messaging, clientele, and identify unique challenges that may need to be addressed.</p>
+              <p class="text-sm font-regular text-center text-gray">We learn about your brand, messaging, 
+clientele, and identify unique challenges that
+may need to be addressed.</p>
           </div>
           <div class="flex flex-col justify-center justify-self-center mx-auto">
             <img src="../assets/image/2.jpg"
             alt="delivery"
             class="rounded-md w-full h-full z-50 opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
               <h2 class="text-md font-bold text-center">Planning and Formulation</h2>
-              <p class="text-sm font-regular text-center text-gray">we learn about your brand, messaging, clientele, and identify unique challenges that may need to be addressed.</p>
+              <p class="text-sm font-regular text-center text-gray">Our experienced team of scent specialists and chemists create a tailored scent to drive your business outcomes. </p>
           </div>
           <div class="flex flex-col justify-center justify-self-center mx-auto">
             <img src="../assets/image/3.jpg"
             alt="delivery"
             class="rounded-md w-full h-full z-50 opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
               <h2 class="text-md font-bold text-center">Launch and Ongoing Support</h2>
-              <p class="text-sm font-regular text-gray text-center">we learn about your brand, messaging, clientele, and identify unique challenges that may need to be addressed.</p>
+              <p class="text-sm font-regular text-gray text-center">Our team delivers quality personal service throughout onboarding, management, and optimization of your unqiue scent.</p>
           </div>
         <!-- </div> -->
       </VueSlickCarousel>

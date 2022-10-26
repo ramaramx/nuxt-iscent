@@ -15,9 +15,9 @@ memorable experience for all who interact with your brand</p>
       </div>
         <div class="container mx-auto py-20" >
           <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-4xl">The iScent Difference</h2>
-          <p class="text-lg text-center lg:text-md">Custom-tailored auromas built from <b>ground-up.</b>
-            <br/>No white labeling. Our <b>customer experience</b> is unparalleled. 
-            <br/>Only supreme <b>quality ingredients.</b> Sourced by us. </p>
+          <p class="text-lg text-center lg:text-md">1. Custom-tailored auromas built from <b>ground-up.</b>
+            <br/>2. No white labeling. Our <b>customer experience</b> is unparalleled. 
+            <br/>3. Only supreme <b>quality ingredients.</b> Sourced by us. </p>
         </div>          
         
         <!-- <div>
