@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h2 class="text-2xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-6xl">Our Client</h2>
+        
+        <div class="py-20">
+        <h2 class="text-4xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-6xl">Our Satisfied Clients</h2>
         
         <VueSlickCarousel v-bind="settings">
                         <div class="flex items-center justify-center px-4">
@@ -34,11 +36,7 @@
                                 class="w-full rounded-md bg-black  py-2 text-white hover:bg-white hover:text-black hover:border-black hover:shadow-md duration-75">See More</button>
                                 </div>
                             </div>
-                        </div>
-
-
-
-                    
+                        </div>     
                 </VueSlickCarousel>
                                 
                                 <!-- pop up 1 -->
@@ -127,6 +125,7 @@
                             
                             </div>
                             <div v-if="showModal3" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
+        </div>
 
       </div>
 </template>

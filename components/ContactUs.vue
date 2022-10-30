@@ -25,11 +25,20 @@
 </section>
 </template>
 
-<style>
+<style scoped>
     .bg-hero-contact{
     background-image: url("https://images.unsplash.com/photo-1519332978332-21b7d621d05e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
     background-size: contain;
     background-repeat: no-repeat;
     margin:auto;
+    }
+
+    @media only screen and (max-width: 768px){
+        .bg-hero-contact{
+    background-image: url("https://images.unsplash.com/photo-1519332978332-21b7d621d05e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:auto;
+    }
     }
 </style>

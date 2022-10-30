@@ -1,7 +1,6 @@
 <template> 
-
 <footer class="bg-black text-center lg:text-left">
-  <div class="container mx-auto p-6 text-gray-800">
+  <div class="container mx-auto p-14 text-gray-800">
     <div class="grid lg:grid-cols-3 gap-5">
       <div class="mb-6 md:mb-0">
         <h5 class="font-medium mb-2 uppercase text-white">About Us</h5>

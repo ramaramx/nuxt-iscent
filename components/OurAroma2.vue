@@ -2,38 +2,24 @@
     <div class="bg-black">
         <div class="flex flex-col lg:flex-row ">
 
-            <div class="flex flex-col container p-5 py-10 gap-y-3 justify-center ">
-                <h1 class="text-white text-4xl font-bold">{{title}}</h1>
-                <p class="text-white text-base font-normal">Whether you want to create a haven in your home or discover the power of
-                    scent marketing for your business, at iScent we use cutting-edge technology to bring the very best
-                    scent-diffusion capabilities to your office, hotel, property, or business.
-
-                    We work with brands, creating unique experiences for their customers, improving
-                    consumer journeys, and building brand recognition. Our scent-marketing systems enhance environments,
-                    allowing businesses to communicate their personality to customers in targeted and specific ways.
-
-                    Whether you are looking to create a better environment for your business team,
-                    impact customer experience or create a signature brand fragrance, we can help you.
-
-                    We can target specific areas with a standalone scent diffuser machine, or create location-wide
-                    experiences through ducted A/C diffusers types.
-
-                    At iScent, we find flexible solutions for you, so you can create the best scent experience for your customers. </p>
-                <a href="" class="underline text-white font-bold text-lg hover:no-underline "> Get in Touch Now!</a>
+            <div class="flex flex-col container p-5 lg:p-20 py-10 gap-y-3 justify-center ">
+                <h1 class="text-white text-4xl font-bold text-center lg:text-left">{{title}}</h1>
+                <p class="text-white text-base font-normal text-center lg:text-left">{{desc}} </p>
+                <a href="" class="underline text-white font-bold text-lg hover:no-underline text-center lg:text-left "> Get in Touch Now!</a>
             </div>
 
             <VueSlickCarousel v-bind="settings" class="slick-slider">
             <img 
-            src="https://images.unsplash.com/photo-1628950749921-ace26a06e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+            src="http://iscent.ae/landing-page/images/lp/small-sldier02.jpg"
             alt="scent 1"
             
             class="w-[478px] h-[357px]"/>
             <img 
-            src="https://images.unsplash.com/photo-1628950749921-ace26a06e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+            src="http://iscent.ae/landing-page/images/lp/small-sldier05.jpg"
             alt="scent 1"
             class="w-[478px] h-[357px]" />
             <img 
-            src="https://images.unsplash.com/photo-1628950749921-ace26a06e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+            src="http://iscent.ae/landing-page/images/lp/small-sldier07.jpg"
             alt="scent 1"
             class="w-[478px] h-[357px]" />
             
@@ -55,9 +41,14 @@ export default{
     data() {
         return {
             title : 'WE ARE EXPERTS IN CREATING SCENT EXPERIENCES',
+            desc :"Whether you want to create a haven in your home or discover the power of scent marketing for your business, at iScent we use cutting-edge technology to bring the very best\r\n                    scent-diffusion capabilities to your office, hotel, property, or business.\r\n\r\n                    We work with brands, creating unique experiences for their customers, improving\r\n                    consumer journeys, and building brand recognition. Our scent-marketing systems enhance environments,\r\n                    allowing businesses to communicate their personality to customers in targeted and specific ways.\r\n\r\n                    Whether you are looking to create a better environment for your business team,\r\n                    impact customer experience or create a signature brand fragrance, we can help you.\r\n\r\n                    We can target specific areas with a standalone scent diffuser machine, or create location-wide\r\n                    experiences through ducted A/C diffusers types.\r\n\r\n                    At iScent, we find flexible solutions for you, so you can create the best scent experience for your customers.",
             settings : {
                         dots: true,
                         infinite: true,
+                        autoplay: true,
+                        autoplaySpeed : 3000,
+                        cssEase: 'ease',
+                        dotsClass: 'slick-dots',
                         initialSlide: 1,
                         speed: 800,
                         slidesToShow: 1,
@@ -110,6 +101,26 @@ export default{
     -khtml-user-select: none;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+}
+.slick-dots {
+  background-color: transparent; /* bg color of container */
+}
+
+
+@media only screen and (max-width: 768px){
+    .slick-slider{
+    width: 100%;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
 }
 
 </style>
