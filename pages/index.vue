@@ -1,20 +1,20 @@
 <template>
   <div>
-     <div class="px-4 py-20 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-20 bg-hero" >
-        <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl ">Bring the power of <b>aroma</b>
+     <div class="px-4  py-20 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-20 bg-hero" >
+        <div class="mx-auto container gap-x-10">
+            <h1 class="max-w-2xl mb-4 text-2xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl ">Bring the power of <b>aroma</b>
               to your retail experiences.</h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 text-sm lg:mb-8  lg:text-xl ">iScent helps brands design one-of-one olfactory experiences
 That positively impact customer dwell time, foot traffic, return visits, and helps you craft a
 memorable experience for all who interact with your brand</p>
             
-          <span  @click="scrollToAnchorPoint('contact')" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
+          <button @click="scrollToAnchorPoint('contact')" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:ring-white">
               SCHEDULE CONSULTATION
-          </span> 
+          </button> 
         </div>
       </div>
         <div class="container mx-auto py-20" >
-          <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-4xl">The iScent Difference</h2>
+          <h2 class="text-xl font-bold text-center text-black mt-5 mb-2 lg:text-6xl">The iScent Difference</h2>
           <p class="text-lg text-center lg:text-md">1. Custom-tailored auromas built from <b>ground-up.</b>
             <br/>2. No white labeling. Our <b>customer experience</b> is unparalleled. 
             <br/>3. Only supreme <b>quality ingredients.</b> Sourced by us. </p>
@@ -82,10 +82,11 @@ memorable experience for all who interact with your brand</p>
       </VueSlickCaraousel>
 
       <OurAroma/>
+      
       <SuccesStories />
       <div ref="contact">
-        <ContactUs />
-        </div>
+      <ContactUs />
+    </div>
     </div>
 </template>
 
@@ -160,4 +161,15 @@ export default {
     background-repeat: round;
     margin:auto;
   }
+
+  @media only screen and (max-width: 768px){
+      .bg-hero {
+    background-image: url("~/assets/image/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  }
   </style>
+
+

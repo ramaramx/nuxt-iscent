@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
 
-  <nav class="flex items-center justify-between flex-wrap bg-white shadow-sm p-2 lg:p-5">
+  <nav class="flex items-center justify-between flex-wrap bg-white shadow-sm p-2 lg:p-5 py-5">
     <div class="flex items-center flex-no-shrink text-black mr-6">
       <a
       href="https://iscent.ae/"

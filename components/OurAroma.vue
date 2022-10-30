@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="text-2xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-4xl">Our Aroma Design Process</h2>
+        <h2 class="text-2xl font-bold text-center text-black mt-5 lg:mb-5 lg:text-6xl">Our Aroma Design Process</h2>
         <VueSlickCarousel v-bind="settings">
         <!-- <div class="flex flex-col lg:flex-row justify-center gap-5 mt-5 mb-20 px-5"> -->
           <div class="flex flex-col justify-center justify-self-center mx-auto">
