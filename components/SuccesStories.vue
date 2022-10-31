@@ -148,7 +148,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
             slidesToShow: 3,
             slidesToScroll: 2,
             swipeToSlide: true,
-            arrows: true,
+            arrows: false,
             responsive: [
             {
             "breakpoint": 1024,

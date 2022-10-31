@@ -142,7 +142,7 @@ import SuccessStories2 from '../components/SuccessStories2.vue';
               slidesToShow: 6,
               slidesToScroll: 2,
               swipeToSlide: true,
-              arrows: true,
+              arrows: false,
               responsive: [
               {
               "breakpoint": 1024,

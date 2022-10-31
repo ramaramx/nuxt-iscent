@@ -13,15 +13,15 @@
             src="http://iscent.ae/landing-page/images/lp/small-sldier02.jpg"
             alt="scent 1"
             
-            class="w-[478px] h-[357px]"/>
+            class="h-auto"/>
             <img 
             src="http://iscent.ae/landing-page/images/lp/small-sldier05.jpg"
             alt="scent 1"
-            class="w-[478px] h-[357px]" />
+            class="h-auto" />
             <img 
             src="http://iscent.ae/landing-page/images/lp/small-sldier07.jpg"
             alt="scent 1"
-            class="w-[478px] h-[357px]" />
+            class="h-auto" />
             
             
             </VueSlickCarousel>

@@ -113,7 +113,7 @@ export default {
             slidesToShow: 6,
             slidesToScroll: 2,
             swipeToSlide: true,
-            arrows: true,
+            arrows: false,
             responsive: [
             {
             "breakpoint": 1024,

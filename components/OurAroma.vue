@@ -53,7 +53,7 @@ may need to be addressed.</p>
               slidesToShow: 3,
               slidesToScroll: 2,
               swipeToSlide: true,
-              arrows: true,
+              arrows: false,
               responsive: [
               {
               "breakpoint": 1024,
@@ -88,8 +88,5 @@ may need to be addressed.</p>
       </script>
   
   <style>
-  .slick-initialized .slick-slide[data-v-e4caeaf8] {
-      display: block;
-      padding: 50px;
-  }
+
   </style>

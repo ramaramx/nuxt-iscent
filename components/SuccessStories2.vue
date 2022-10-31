@@ -40,7 +40,7 @@
                 </VueSlickCarousel>
                                 
                                 <!-- pop up 1 -->
-                                <div v-if="showModal1" class="px-20 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+                                <div v-if="showModal1" class="px-1 lg:px-20 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
                           
                                     <!--content-->
                                 <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -69,7 +69,7 @@
                             <div v-if="showModal1" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
 
                             <!-- pop up 2 -->
-                            <div v-if="showModal2" class="px-20 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex gap-x-5">
+                            <div v-if="showModal2" class="px-0 lg:px-20 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex gap-x-5">
                                 
                                     <!--content-->
                                 <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -98,7 +98,7 @@
                             <div v-if="showModal2" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
 
                             <!-- pop up 3 -->
-                            <div v-if="showModal3" class="px-20 overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
+                            <div v-if="showModal3" class=" px-1 lg:px-20  overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
                              
                                     <!--content-->
                                 <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -155,7 +155,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
             slidesToShow: 3,
             slidesToScroll: 2,
             swipeToSlide: true,
-            arrows: true,
+            arrows: false,
             responsive: [
             {
             "breakpoint": 1024,
