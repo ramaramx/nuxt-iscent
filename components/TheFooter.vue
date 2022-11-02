@@ -16,7 +16,7 @@
         <h5 class="font-medium mb-2 uppercase text-white">Address</h5>
 
         <p class="mb-4 text-white">
-            Address: Middle East Head Office NO. 1611 Churchill Tower, Burj Khalifa District, Dubai, UAE.
+            Address: 81 6A Street, Al Quoz 1.
         </p>
       </div>
       <div class="mb-6 md:mb-0 text-white">

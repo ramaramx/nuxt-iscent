@@ -6,12 +6,14 @@
       >
         <div
           class="hidden flex-col items-center justify-center bg-white w-screen h-screen md:flex"
-        >          
-        <nuxt-link 
-          to="/">
-          <!-- DON T FORGET TO CHANGE THE IMG -->
-            <img src="~/assets/image/logo.png" alt="iscent-logo" />
-          </nuxt-link>
+        >  
+        <img 
+          src="~/assets/gif/running.gif" 
+          alt="astronout"
+          class="animation"
+          />        
+        
+         
           <h1 class="font-mono text-black text-6xl py-10">
             {{ error.statusCode }} - Page Not Found
           </h1>
@@ -28,12 +30,21 @@
   <script>
   export default {
     props: ['error'],
-    layout: 'error', // you can set a custom layout for the error page
+    layout: 'noloading', // you can set a custom layout for the error page
   }
   </script>
   
-  <style scopped>
+  <style scoped>
 
-  
+  .animation{
+    height: auto;
+    width: 150px;
+    
+    position: absolute;
+
+    top: 150px;
+    
+    
+  }
   
   </style>

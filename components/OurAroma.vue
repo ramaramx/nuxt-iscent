@@ -4,7 +4,8 @@
         <VueSlickCarousel v-bind="settings">
         <!-- <div class="flex flex-col lg:flex-row justify-center gap-5 mt-5 mb-20 px-5"> -->
           <div class="flex flex-col justify-center justify-self-center mx-auto">
-            <img src="../assets/image/1.jpg"
+            <img 
+            src="~/assets/image/1.jpg"
             alt="delivery"
             class="rounded-md w-full h-full z-50 opacity-1 transition-opacity hover:opacity-90 hover:bg-black"/>
               <h2 class="text-md font-bold text-center">Brand intake & ideation</h2>

@@ -2,11 +2,11 @@
     <div>
        <div class="h-screen py-10  mx-auto  lg:py-20 bg-hero" >
           <div class=" flex flex-col justify-center items-center  px-10 mt-52">
-              <h1 class="max-w-2xl mb-4 text-2xl text-center text-white font-semibold md:text-5xl xl:text-6xl ">Bring the power of aroma
+              <h1 class="max-w-2xl mb-4 text-2xl text-center text-white font-semibold md:text-5xl xl:text-6xl uppercase">Bring the power of aroma
                 to your retail experiences.</h1>
               <p class="max-w-2xl mb-6 font-normal text-white text-center text-sm lg:mb-8  lg:text-xl ">iScent helps brands design one-of-one olfactory experiences
               That positively impact customer dwell time, foot traffic, return visits, and helps you craft a memorable experience for all who interact with your brand
-            </p>
+              </p>
             
             <div class="flex flex-row gap-x-5">
             <button @click="scrollToAnchorPoint('started')" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border bg-black border-black rounded-lg hover:bg-white hover:text-black transition ease">
@@ -126,12 +126,13 @@ import OurAroma2 from '../components/OurAroma2.vue';
 import SuccessStories2 from '../components/SuccessStories2.vue';
   
   export default {
-      name: "test",
-      layouts: "default",
+      name: 'landingpage',
+      layout: 'noloading',
       components: {  ContactUs, VueSlickCaraousel, OurAroma2, SuccessStories2 },
   
       data() {
           return {
+            
               showModal: false,
              settings : {
               dots: true,

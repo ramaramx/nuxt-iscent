@@ -26,6 +26,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
     '@nuxt/postcss8',
   ],
 
@@ -35,6 +36,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxt/image',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -59,4 +61,13 @@ export default {
       },
     },
   },
+  
+  image: {
+    // Options
+  },
+
+  components: true,
+
+  loading: '~/components/CustomLoading.vue',
+
 }

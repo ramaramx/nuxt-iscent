@@ -1,5 +1,8 @@
 <template>
   <div>
+  
+  <transition name="home" mode="out-in">
+    <div>
      <div class="px-4  py-20 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-20 bg-hero" >
         <div class="mx-auto container gap-x-10">
             <h1 class="max-w-2xl mb-4 text-2xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl ">Bring the power of <b>aroma</b>
@@ -87,7 +90,10 @@ memorable experience for all who interact with your brand</p>
       <div ref="contact">
       <ContactUs />
     </div>
-    </div>
+  </div>
+    
+  </transition>
+</div>
 </template>
 
 <script>
@@ -96,10 +102,14 @@ import SuccesStories from '../components/SuccesStories.vue';
 import ContactUs from '../components/ContactUs.vue';
 import VueSlickCaraousel from 'vue-slick-carousel'
 
+
 export default {
     name: "index",
-    layouts: "default",
+    layout: "default",
+    transition: 'home',
+    mode: 'out-in',
     components: { OurAroma, SuccesStories, ContactUs, VueSlickCaraousel },
+    
 
     data() {
         return {
@@ -149,7 +159,8 @@ export default {
             const el = this.$refs[refName]
             el.scrollIntoView({ behavior: 'smooth'})
         }
-    }
+    },
+    
   
 }
 </script>

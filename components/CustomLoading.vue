@@ -1,17 +1,10 @@
 <template>
- <div>
-   <div v-if="loading" class="loading-page background-white fadeout "> </div>
-    <TheHeader />
-      <Nuxt />
-    <TheFooter />
- </div>
+    <div v-if="loading" class="loading-page background-white fadeout "> </div>
+  </template>
+  <script>
+    export default {
 
- 
-</template>
-
-<script>
-export default {
-   data () {
+      data () {
         return{
         loading: true,
         }
@@ -24,28 +17,18 @@ export default {
           this.loading = false
         },
       },
-   mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-      setTimeout(() => this.$nuxt.$loading.finish(), 1800)
-    })
-  }
-}
-</script>
-
-
-
-<style scoped>
+    }
+  </script>
+  <!-- <style scoped>
     .background-white{
     background-color: white;
     width: 100vw;
     height: 100vh;
-    background-image: url('~/assets/image/logo.png');
+    background-image: url(~/assets/image/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     transition: ease-in;
-    transform: scale(1.2);
-    overflow: hidden;
+    transform: scale3d(1.1);
   }
     .loading-page {
       position: fixed;
@@ -60,7 +43,6 @@ export default {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      overflow: hidden;
     }
 
 
@@ -81,15 +63,14 @@ export default {
 
     .fadeout {
   animation: fadeout 4s forwards;
-  overflow: hidden;
 }
 
 @keyframes fadeout {
   to {
     opacity: 0;
     visibility: hidden;
-    overflow: hidden;
   }
 }
 
-  </style>
+  </style> -->
+  
