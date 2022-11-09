@@ -44,7 +44,7 @@
                                     <div class="relative lg:p-6 flex flex-col lg:flex-row">
                                     <iframe class="w-full aspect-video " src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
                                     <div class="flex flex-col">
-                                        <h1 class="text-4xl font-bold">METRO</h1>
+                                        <h1 class="text-4xl font-bold">EMIRATES</h1>
                                         <h2 class="text-md font-regular text-gray-500">Description : <br/>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
                                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
@@ -73,7 +73,7 @@
                                     <div class="relative lg:p-6 flex flex-col lg:flex-row">
                                         <iframe class="w-full aspect-video " src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="flex flex-col">
-                                        <h1 class="text-4xl font-bold">METRO</h1>
+                                        <h1 class="text-4xl font-bold">MOTF</h1>
                                         <h2 class="text-md font-regular text-gray-500">Description : <br/>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
                                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
@@ -93,7 +93,7 @@
                             </div>
                             <div v-if="showModal" class="opacity-25 fixed inset-0 z-40 bg-black"></div>
 
-                            <!-- pop up 2 -->
+                            <!-- pop up 3 -->
                             <div v-if="showModal" class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex">
                                 <div class="relative w-auto my-6 mx-auto max-w-lg lg:max-w-6xl">
                                     <!--content-->

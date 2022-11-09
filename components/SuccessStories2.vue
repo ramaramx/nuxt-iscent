@@ -74,11 +74,11 @@
                                     <div class="gap-x-5 relative lg:p-6 flex flex-col lg:flex-row">
                                     <iframe class="w-full aspect-video " src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
                                     <div class="flex flex-col">
-                                        <h1 class="text-4xl font-bold">METRO</h1>
-                                        <h2 class="text-md font-regular text-gray-500">Description : <br/>
+                                        <h1 class="text-4xl font-bold">EMIRATES</h1>
+                                        <p class="text-md font-regular text-gray-500">Description : <br/>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
                                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
-                                        </h2>
+                                        </p>
                                         <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
                                         <ContactForm />
                                     </div>
@@ -103,11 +103,11 @@
                                     <div class="gap-x-5 relative lg:p-6 flex flex-col lg:flex-row">
                                         <iframe class="w-full aspect-video " src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="flex flex-col">
-                                        <h1 class="text-4xl font-bold">METRO</h1>
-                                        <h2 class="text-md font-regular text-gray-500">Description : <br/>
+                                        <h1 class="text-4xl font-bold">MUSEUM OF THE FUTURE</h1>
+                                        <p class="text-md font-regular text-gray-500">Description : <br/>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
                                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
-                                        </h2>
+                                        </p>
                                         <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
                                         <ContactForm/>
                                     </div>
@@ -133,10 +133,10 @@
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <div class="flex flex-col">
                                         <h1 class="text-4xl font-bold">METRO</h1>
-                                        <h2 class="text-sm lg:text-md font-regular text-gray-500">Description : <br/>
+                                        <p class="text-sm lg:text-md font-regular text-gray-500">Description : <br/>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
                                             ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
-                                        </h2>
+                                        </p>
                                         <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
                                         <ContactForm />
                                     </div>
@@ -161,11 +161,13 @@
                              <div class="gap-x-5 relative lg:p-6 flex flex-col lg:flex-row">
                                  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TWACe_5KEBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                              <div class="flex flex-col">
-                                 <h1 class="text-4xl font-bold">METRO</h1>
-                                 <h2 class="text-sm lg:text-md font-regular text-gray-500">Description : <br/>
-                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
-                                     ullamcorper sagittis lacinia turpis eget pretium et tellus. Pulvinar aliquam quisque vel sit egestas consequat. Nec sed nunc tristique quis urna a dui fermentum. Diam nulla at porttitor duis justo, donec.
-                                 </h2>
+                                 <h1 class="text-4xl font-bold">PARAMOUNT</h1>
+                                 <p class="text-sm lg:text-md font-regular text-gray-500">Description : <br/>
+                                     Paramount Hotel Dubai had a vision to create three distinct atmospheres within their landmark hotel, each meant to illicit a different feeling. All three scents were designed as signature scents both individually, and also synergistically, flowing from one room to another organically. “What’s wonderful about iScent is that its not a perfume. You don’t walk into the hotel and get showered with perfume when you walk through the room. Rather, you walk into a feeling. You walk into a scene. Onto a stage. You are enveloped by this paramount feel and character”
+
+
+
+                                 </p>
                                  <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
                                  <ContactForm />
                              </div>
