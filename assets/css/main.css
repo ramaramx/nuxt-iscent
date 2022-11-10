@@ -4,3 +4,13 @@
 
 .home-enter-active, .home-leave-active { transition: opacity .10s; }
 .home-enter, .home-leave-active { opacity: 0; }
+
+.v-messages__message {
+    color: red;
+    line-height: 12px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
