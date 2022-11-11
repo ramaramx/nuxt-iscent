@@ -4,7 +4,7 @@
   <transition name="home" mode="out-in">
     <div>
      <div class="px-4  py-20 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-20 bg-hero" >
-        <div class="mx-auto container gap-x-10">
+        <div class="mx-auto gap-x-10">
             <h1 class="max-w-2xl mb-4 text-2xl font-medium tracking-tight leading-none md:text-5xl xl:text-6xl ">Bring the power of <b>aroma</b>
               to your retail experiences.</h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 text-sm lg:mb-8  lg:text-xl ">iScent helps brands design one-of-one olfactory experiences

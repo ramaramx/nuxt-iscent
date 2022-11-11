@@ -52,6 +52,7 @@
       value="send"
       class="mr-4"
       @click="submit"
+      
       >
         submit
       </v-btn>
@@ -107,6 +108,7 @@ export default {
   },
 
   computed: {
+    
       nameErrors () {
         const errors = []
         if (!this.$v.name.$dirty) return errors
@@ -130,6 +132,7 @@ export default {
     },
 
   methods: {
+
     submit () {
         this.$v.$touch()
       },
@@ -142,20 +145,17 @@ export default {
       },
     sendEmail(e) {
       try {
-        emailjs.sendForm('service_i5pftue', 'template_pejjgiz', e.target, '922iaB4LhxP7kUi3W' ,
+        emailjs.sendForm('service_kfrm04n', 'template_k14kdea', e.target, 'Tplr0-2NVfteRuO70' ,
          {
           name: this.name,
           email: this.email,
           tel: this.tel
         })
-
+        alert('thanks for submit your data')
       } catch(error) {
           console.log({error})
       }
-      // Reset form field
-      this.name = ''
-      this.email = ''
-      this.tel = ''
+     
     },
   }
 }

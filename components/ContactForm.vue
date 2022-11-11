@@ -1,7 +1,9 @@
 <template>
-<form>
+<form @submit.prevent="sendEmail">
     <v-text-field
       v-model="name"
+      type="text"
+        name="name"
       :error-messages="nameErrors"
       :counter="10"
       label="Name"
@@ -11,6 +13,8 @@
     ></v-text-field>
     <v-text-field
       v-model="email"
+      type="tel"
+        name="phone"
       :error-messages="emailErrors"
       label="E-mail"
       required
@@ -24,7 +28,8 @@
     
     <v-btn
       class="mr-4"
-      @click="submit"
+      :disabled="!valid"
+      @click="validate"
     >
       submit
     </v-btn>
@@ -47,6 +52,7 @@
     data: () => ({
       name: '',
       email: '',
+      valid: true,
       
       
     }),
@@ -55,7 +61,6 @@
       nameErrors () {
         const errors = []
         if (!this.$v.name.$dirty) return errors
-        !this.$v.name.maxLength && errors.push('Name must be at most 10 characters long')
         !this.$v.name.required && errors.push('Name is required.')
         return errors
       },
@@ -69,6 +74,14 @@
     },
 
     methods: {
+      validate () {
+      this.valid = this.$refs.form.validate()
+      if (this.valid) {
+        this.snackbar = true
+      }
+      else 
+        alert ("Thanks for Contact Us")
+    },
       submit () {
         this.$v.$touch()
       },
@@ -76,8 +89,19 @@
         this.$v.$reset()
         this.name = ''
         this.email = ''
-        
       },
-    },
-  }
+      sendEmail(e) {
+      try {
+        emailjs.sendForm('service_kfrm04n', 'template_t0ll7in', e.target, 'Tplr0-2NVfteRuO70' ,
+         {
+          name: this.name,
+          email: this.email,
+          
+        })
+        } catch(error) {
+            console.log({error})
+        }
+      }
+  },
+}
 </script>

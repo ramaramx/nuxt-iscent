@@ -5,7 +5,7 @@
             <div class="flex flex-col container p-5 lg:p-20 py-10 gap-y-3 justify-center ">
                 <h1 class="text-white text-4xl font-bold text-center lg:text-left">{{title}}</h1>
                 <p class="text-white text-base font-normal text-center lg:text-left">{{desc}} </p>
-                <a href="" class="underline text-white font-bold text-lg hover:no-underline text-center lg:text-left "> Get in Touch Now!</a>
+                <a href="tel:+97143116604" class="underline text-white font-bold text-lg hover:no-underline text-center lg:text-left "> Get in Touch Now!</a>
             </div>
 
             <VueSlickCarousel v-bind="settings" class="slick-slider">
