@@ -11,6 +11,11 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
   },
 
+  env: {
+    googleanalyticUA: process.env.GOOGLE_ANALYTIC_UA,
+    googleanalyticAW: process.env.GOOGLE_ANALYTIC_AW
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/main.css',
@@ -32,7 +37,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/gtm',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
@@ -45,15 +49,6 @@ export default {
       }],
   ],
 
-  gtm: {
-    id: process.env.GTM_ID || 'UA-102304446-1',
-    scriptDefer: true,
-    pageTracking: true,
-    // layer: 'test',
-    variables: {
-      test: '1'
-    }
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
