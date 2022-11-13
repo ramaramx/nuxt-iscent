@@ -2,23 +2,23 @@
 <html {{ HTML_ATTRS }}>
   <head {{ HEAD_ATTRS }}>
     {{ HEAD }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ENV.googleanalyticUA }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102304446-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ ENV.googleanalyticUA }}');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-102304446-1');
     </script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ENV.googleanalyticAW }}"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-845900504"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', '{{ ENV.googleanalyticAW }}');
-    </script>
+  gtag('config', 'AW-845900504');
+</script>
 
   </head>
   <body {{ BODY_ATTRS }}>

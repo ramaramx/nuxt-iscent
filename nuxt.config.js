@@ -11,10 +11,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
   },
 
-  env: {
-    googleanalyticUA: process.env.GOOGLE_ANALYTIC_UA,
-    googleanalyticAW: process.env.GOOGLE_ANALYTIC_AW
-  },
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
