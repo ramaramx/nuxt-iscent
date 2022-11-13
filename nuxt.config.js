@@ -32,13 +32,28 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/gtm',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/vuetify',
     '@nuxt/image',
+    ['@netsells/nuxt-hotjar', { 
+      id: '3131549', 
+      sv: '6',
+      }],
   ],
+
+  gtm: {
+    id: process.env.GTM_ID || 'UA-102304446-1',
+    scriptDefer: true,
+    pageTracking: true,
+    // layer: 'test',
+    variables: {
+      test: '1'
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
