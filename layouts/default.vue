@@ -1,7 +1,7 @@
 <template>
  <div>
    <div v-if="loading" class="loading-page background-white fadeout "> </div>
-    <TheHeader />
+    
       <Nuxt />
     <TheFooter />
  </div>

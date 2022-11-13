@@ -1,5 +1,24 @@
 <template>
     <div>
+      <nav class="flex items-center justify-between flex-wrap bg-white shadow-sm p-2 lg:p-5 py-5">
+        <div class="flex items-center flex-no-shrink text-black mr-6">
+          <a
+          href="https://iscent.ae/"
+          >
+          <img
+          src="../assets/image/logo.png"
+          alt="logo"
+          class="w-[120px] h-[25px]"
+          />
+        </a>
+        </div>
+          <div>
+            <a  @click="scrollToAnchorPoint('contact')" class="cursor-pointer no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white">
+              Schedule Information Session</a>
+          </div>
+        
+      </nav>
+      
        <div class="h-screen py-10  mx-auto  lg:py-20 bg-hero" >
           <div class=" flex flex-col justify-center items-center  px-10 mt-52">
               <h1 class="max-w-2xl mb-4 text-2xl text-center text-white font-semibold md:text-5xl xl:text-6xl uppercase">Bring the power of aroma

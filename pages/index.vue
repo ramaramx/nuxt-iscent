@@ -1,6 +1,23 @@
 <template>
   <div>
-  
+    <nav class="flex items-center justify-between flex-wrap bg-white shadow-sm p-2 lg:p-5 py-5">
+    <div class="flex items-center flex-no-shrink text-black mr-6">
+      <a
+      href="https://iscent.ae/"
+      >
+      <img
+      src="../assets/image/logo.png"
+      alt="logo"
+      class="w-[120px] h-[25px]"
+      />
+    </a>
+    </div>
+      <div>
+        <a  @click="scrollToAnchorPoint('contact')" class="cursor-pointer no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white">
+          Schedule Information Session</a>
+      </div>
+    
+  </nav>
   <transition name="home" mode="out-in">
     <div>
      <div class="px-4  py-20 h-full mx-auto lg:gap-8 xl:gap-0 lg:py-20 bg-hero" >
