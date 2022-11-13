@@ -22,9 +22,6 @@
       @blur="$v.email.$touch()"
     ></v-text-field>
     
-    <v-btn @click="clear">
-      clear
-    </v-btn>
     
     <v-btn
       class="mr-4"
@@ -84,11 +81,6 @@
     },
       submit () {
         this.$v.$touch()
-      },
-      clear () {
-        this.$v.$reset()
-        this.name = ''
-        this.email = ''
       },
       sendEmail(e) {
       try {
