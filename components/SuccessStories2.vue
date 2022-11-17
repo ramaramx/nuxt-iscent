@@ -96,7 +96,7 @@
 Paramount Hotel Dubai had a vision to create three distinct atmospheres within their landmark hotel, each meant to illicit a different feeling. All three scents were designed as signature scents both individually, and also synergistically, flowing from one room to another organically. 
 “What’s wonderful about iScent is that its not a perfume. You don’t walk into the hotel and get showered with perfume when you walk through the room. Rather, you walk into a feeling. You walk into a scene. Onto a stage. You are enveloped by this paramount feel and character”
                               </p>
-                              <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
+                              
                               <ContactForm />
                           </div>
                           </div>
@@ -126,7 +126,7 @@ Paramount Hotel Dubai had a vision to create three distinct atmospheres within t
                             The mission of Rixios Premium Hotel Dubai was simple: to provide an immediate sense of freshness as soon as a new patron walks through the front doors. Working with iScent, Rixios deployed their signature scent through HVAC diffusers throughout the hotel lobby. Both guests and hotel staff immediately noticed a more fresh, open, and breathable environment in the hotel.
                             “The first impression is key and with iScent it allowed us to put the freshest and cleanest foot forward”
                           </p>
-                          <h2 class="text-md font-regular text-gray-500">Talk more for business</h2>
+                          
                           <ContactForm/>
                       </div>
                       </div>
